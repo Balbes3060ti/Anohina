@@ -1,0 +1,19 @@
+body {color: white; font-size: 25px;}
+
+a {text-decoration: none; color: #ffffff;}
+
+header.header {padding-top: 20px; padding-bottom: 20px; width: 100%; background-color: rgb(11, 126, 40);}
+img.header {margin-left: 30px; height: 50px; align-self: center;}
+nav {display: flex; flex-direction: row; align-items: center;}
+article.header {margin-left: 30px; font-size: 30px;}
+
+main {background-image: url("Фон.png"); min-height: 100%;}
+
+article.about {padding: 20px; padding-bottom: 0px;}
+
+.courses {padding-block: 70px; display: grid; row-gap: 70px; grid-template-columns: auto auto auto; justify-content: space-evenly;}
+section.course {max-width: 430px; min-height: 600px; background-color: rgb(12, 138, 44);}
+img.course {width: 100%;}
+h2.course, p.course, a.course {padding-left: 20px; padding-right: 20px;}
+
+#zapis {font-size: 150%; font-weight: bold;}

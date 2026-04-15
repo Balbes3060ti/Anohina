@@ -1,0 +1,16 @@
+body {color: white; font-size: 25px;}
+
+a {text-decoration: none; color: #ffffff;}
+
+header.header {padding-top: 20px; padding-bottom: 20px; width: 100%; background-color: rgb(11, 126, 40);}
+img.header {margin-left: 30px; height: 50px; align-self: center;}
+nav {display: flex; flex-direction: row; align-items: center;}
+article.header {margin-left: 30px; font-size: 30px;}
+
+main {background-image: url("Фон.png"); min-height: 100%;}
+
+.describtion {padding: 20px;}
+
+.slider {background-color: rgb(31, 17, 8); width: 100%; height: 100%; overflow-x: scroll; scroll-snap-type: x mandatory; display: flex;}
+.slide {width: 100%; font-size: 50pt; flex-shrink: 0; scroll-snap-align: center;}
+.slide_img {width: 100%; height: 100%; object-fit: contain;}
